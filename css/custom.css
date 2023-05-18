@@ -25,14 +25,15 @@ a{
     justify-content: space-between;
     padding: 0 34px;
 }
-.logo{
-    font-size: 2rem;
-    font-weight: bold;
-}
+.logo img{
+    width: 130px; /* ajuste o tamanho conforme necessário */
+    height: 110px; /* ajuste o tamanho conforme necessário */
+  }
 .nav-menu{
     display: flex;
     align-items: center;
     gap: 50px;
+    padding: 20px;
 }
 .nav-link{
     transition: 0.3s ease;
@@ -70,8 +71,8 @@ a{
     }
     .nav-menu{
         position: fixed;
-        left: -100%;
-        top: 70px;
+        left: -120%;
+        top: 110px;
         gap: 0;
         border-radius: 0 0 20px 20px;
         background-image: linear-gradient(to right,#000066,#0251c7 60%);

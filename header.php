@@ -1,7 +1,9 @@
 <link rel="stylesheet" href="css/custom.css" />
 <header class="header">
     <nav class="navbar">
-        <a href="home.php" class="logo">JPex.Dev</a>
+        <a href="home.php" class="logo">
+            <img src="images/JPex-White.png" alt="Logo JPex.Dev">
+        </a>
         <ul class="nav-menu">
             <li class="nav-item"> <a href="project.php" class="nav-link"> Projetos</a></li>
             <li class="nav-item"><a href="#" class="nav-link">Sobre</a></li>
@@ -14,9 +16,9 @@
         </div>
         <script>
             const hamburguer = document.querySelector(".hamburguer")
-            const navMenu =  document.querySelector(".nav-menu");
+            const navMenu = document.querySelector(".nav-menu");
 
-            hamburguer.addEventListener("click", ()=>{
+            hamburguer.addEventListener("click", () => {
                 hamburguer.classList.toggle('active');
                 navMenu.classList.toggle('active');
             })
