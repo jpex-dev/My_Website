@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,14 +9,17 @@
     <title>HOME</title>
     <?php include "header.php"; ?>
 </head>
+
 <body>
     <div class="landing">
         <div class="land-let">
-dasd
+            dasd
         </div>
-        <div class = "land-image">
-
+        <div class="land-image">
+            gfd
+            <img src="images/SAM_1460-1.jpg">
         </div>
     </div>
 </body>
+
 </html>
