@@ -9,6 +9,13 @@
     <?php include "header.php"; ?>
 </head>
 <body>
-    
+    <div class="landing">
+        <div class="land-let">
+dasd
+        </div>
+        <div class = "land-image">
+
+        </div>
+    </div>
 </body>
 </html>

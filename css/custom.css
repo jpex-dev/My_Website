@@ -7,9 +7,23 @@
 
 }
 header{
-    background-image: linear-gradient(to right,#000066,#0251c7 60%);
+    background-image: linear-gradient(to right,#000066,#08418b 60%);
+    background-size: 200% auto;
+    animation: lavaFlow 6s linear infinite;
     color: antiquewhite;
     box-shadow: 0px 10px 5px lightblue;
+    z-index: 1;
+}
+@keyframes lavaFlow {
+    0% {
+        background-position: 0% center;
+    }
+    50%{
+        background-position: 100% center;
+    }
+    100% {
+        background-position: 0% center;
+    }
 }
 li{
     list-style: none;
@@ -34,6 +48,7 @@ a{
     align-items: center;
     gap: 50px;
     padding: 20px;
+    font-size: 20px;
 }
 .nav-link{
     transition: 0.3s ease;
@@ -75,12 +90,16 @@ a{
         top: 110px;
         gap: 0;
         border-radius: 0 0 20px 20px;
-        background-image: linear-gradient(to right,#000066,#0251c7 60%);
+        background-image: linear-gradient(to right,#000066,#08418b 60%);
         text-align: center;
         flex-direction: column;
         width: 100%;
         transition: 0.3s;
         box-shadow: 0px 10px 5px lightblue;
+        background-size: 200% auto;
+        animation: lavaFlow 6s linear infinite;
+        padding-bottom: 20px;
+        padding-right: 20px;
     }
     .nav-item{
         margin: 16px 0;
@@ -88,4 +107,11 @@ a{
     .nav-menu.active{
         left: 0;
     }
+}
+
+.landing{
+    background-color: aliceblue;
+    margin-top: 5px;
+    z-index: 2;
+    position: block;
 }
