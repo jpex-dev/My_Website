@@ -13,10 +13,18 @@
 <body>
     <div class="landing">
         <div class="land-let">
-            dasd
+            <div class="let">
+                <div class="big-letter">
+                    "Today better than yesterday, Tomorrow better than today."
+                </div>
+                <div class="me-let">
+                    wefrwfwf
+
+                </div>
+            </div>
         </div>
         <div class="land-image">
-            gfd
+
             <img src="images/SAM_1460-1.jpg">
         </div>
     </div>
