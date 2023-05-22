@@ -109,6 +109,37 @@ a{
     .nav-menu.active{
         left: 0;
     }
+    .landing{
+        display: flex;
+        flex-wrap: wrap;
+        background-color: aliceblue;
+        margin-top: 5px;
+        z-index: 2;
+        position: block;
+        display: inline-flex;
+        width: 100%;
+        height: 900px;
+    }
+    .land-image .mobile{
+        width: 200px;
+        height: 200px;
+        display: block;
+        left: 25%;
+        top: 25%;
+    }
+    .land-let.mobile{
+        width: auto;
+        display: flex;
+        position: relative;
+        justify-content: top;
+        margin-top: 0;
+        top: -20%;
+        align-items: flex-start;
+    }
+    .let.mobile{
+        width: auto;
+        position: block;
+    }
 }
 
 .landing{
@@ -130,6 +161,7 @@ a{
     justify-content: center;
     align-items: center;
     display: flex;
+    flex-wrap: wrap;
     
 }
 .big-let{
@@ -145,6 +177,7 @@ a{
     text-shadow: 1px 1px 1px #000066, 2px 2px 1px lightblue;
     text-align: center;
     font:bold;
+    margin-top: 30px;
 }
 .land-image{
     width: 50%;
@@ -155,7 +188,7 @@ a{
     align-items: center;
     display: flex;
     top: 30%;
-    right: 10%;
+    left: 10%;
     width: 30%;
     height: 40%;
     border-radius: 40%;
