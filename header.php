@@ -2,7 +2,7 @@
 <header class="header">
     <nav class="navbar">
         <a href="home.php" class="logo">
-            <img src="images/JPex-White.png" alt="Logo JPex.Dev">
+            <img src="images/JPex-Blue.png" alt="Logo JPex.Dev">
         </a>
         <ul class="nav-menu">
             <li class="nav-item"> <a href="project.php" class="nav-link"> Projetos</a></li>

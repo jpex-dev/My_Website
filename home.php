@@ -15,7 +15,7 @@
 
         <div class="land-image">
 
-            <img src="images/SAM_1460-1.jpg" alt="me" class="mobile">
+            <img src="images/SAM_1460-1.png" alt="me" class="mobile">
         </div>
         <div class="land-let mobile">
             <div class="let mobile">

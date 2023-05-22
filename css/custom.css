@@ -7,7 +7,7 @@
 
 }
 header{
-    background-image: linear-gradient(to right,#000066,#08418b 60%);
+    background-image:  linear-gradient(to right,aliceblue,lightblue 60%);
     background-size: 200% auto;
     animation: lavaFlow 6s linear infinite;
     /*color: antiquewhite;*/
@@ -15,6 +15,9 @@ header{
     z-index: 1;
     position: sticky;
     top: 0;
+}
+body{
+    background-color: #003366;
 }
 @keyframes lavaFlow {
     0% {
@@ -31,8 +34,9 @@ li{
     list-style: none;
 }
 a{
-    color: azure;
+    color: #003366;
     text-decoration: none;
+    font-weight:bold;
 }
 .navbar{
     min-height: 70px;
@@ -50,7 +54,7 @@ a{
     align-items: center;
     gap: 50px;
     padding: 20px;
-    font-size: 20px;
+    font-size: 24px;
 }
 .nav-link{
     transition: 0.3s ease;
@@ -143,7 +147,7 @@ a{
 }
 
 .landing{
-    background-color: aliceblue;
+    background-color: #003366;
     margin-top: 5px;
     z-index: 2;
     position: block;
@@ -152,6 +156,7 @@ a{
     height: 900px;
 }
 .land-let{
+    color: #003366;
     width: 70%;
 }
 .let{
@@ -162,19 +167,23 @@ a{
     align-items: center;
     display: flex;
     flex-wrap: wrap;
-    
+    background-color: lightblue;
+    margin-right: 100px;
+    margin-left: 100px;
+    padding-top: 25px;
+    padding-bottom: 20px ;
+    border-radius: 200px;
 }
 .big-let{
     font-size: 30px;
     text-transform: capitalize;
-    text-shadow: 1px 1px 1px #000066, 2px 2px 1px lightblue;
+    text-shadow: 1px 1px 1px aliceblue, 2px 2px 1px white;
     text-align: center;
     font:bold;
 }
 .me-let{
     font-size: 16px;
     text-transform: capitalize;
-    text-shadow: 1px 1px 1px #000066, 2px 2px 1px lightblue;
     text-align: center;
     font:bold;
     margin-top: 30px;
@@ -193,23 +202,23 @@ a{
     height: 40%;
     border-radius: 40%;
     box-shadow:  2px 2px 1px rgb(58, 70, 233),0px 10px 5px rgb(11, 125, 163);
-    border: 2px solid #000066;
+    border: 2px solid white;
     animation: image-lavaflow 7s linear infinite;
 }
 @keyframes image-lavaflow {
     0%{
-        border-radius: 50% 30% 40% 60%;
+        border-radius: 60% 40% 50% 70%;
     }
     25%{
-        border-radius: 60% 50% 30% 40%;
+        border-radius: 70% 60% 40% 50%;
     }
     50%{
-        border-radius: 40% 60% 50% 30%;
+        border-radius: 50% 70% 60% 40%;
     }
     75%{
-        border-radius: 30% 40% 60% 50%;
+        border-radius: 40% 50% 70% 60%;
     }
     100%{
-        border-radius: 50% 30% 40% 60%;
+        border-radius: 60% 40% 50% 70%;
     }
 }
