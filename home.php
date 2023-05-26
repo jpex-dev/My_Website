@@ -40,7 +40,7 @@
         </div>
         <div class="slide">
             <div class="slider-container">
-                <img src="images/python_cert.png" alt="Image 1">
+                <img src="image1.jpg" alt="Image 1">
                 <img src="image2.jpg" alt="Image 2">
                 <img src="image3.jpg" alt="Image 3">
             </div>
