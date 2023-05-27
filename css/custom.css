@@ -274,21 +274,17 @@ body {
 }
 
 .div-let-carrer {
-    left: 15%;
+    
     padding: 5%;
     position: relative;
     top: 15%;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    flex-wrap: wrap;
 }
 
 .big-let-carrer {
     font-size: 30px;
     text-transform: capitalize;
     text-shadow: 1px 1px 1px #000066, 2px 2px 1px lightblue;
-    text-align: center;
+    padding-left: 5%;
     font: bold;
 }
 
