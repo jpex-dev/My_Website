@@ -1,10 +1,9 @@
 import {Card, CardHeader, CardBody, CardFooter, Divider, Link, Image} from "@nextui-org/react";
 
 
-const ProjectCards = () =>{
+const ProjectCards = ({ post }) =>{
     return (
-
-        <Card className="max-w-[400px] max-h-[30vh] m-4">
+        <Card className="max-w-[400px] max-h-[30vh] m-4 w-[20vw]">
             <CardHeader className="flex gap-3">
                 <Image
                     alt="nextui logo"
@@ -14,13 +13,13 @@ const ProjectCards = () =>{
                     width={40}
                 />
                 <div className="flex flex-col">
-                    <p className="text-md">NextUI</p>
-                    <p className="text-small text-default-500">nextui.org</p>
+                    <p className="text-md">{post.Title}</p>
+                    {/*<p className="text-small text-default-500">nextui.org</p>*/}
                 </div>
             </CardHeader>
             <Divider/>
             <CardBody>
-                <p>Make beautiful websites regardless of your design experience.</p>
+                <p>{post.Description}</p>
             </CardBody>
             <Divider/>
             <CardFooter>

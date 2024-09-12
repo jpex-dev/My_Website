@@ -4,7 +4,7 @@ import {useTheme} from "./darkthemeProvide.tsx";
 import { Button } from "./ui/button.tsx"
 
 
-const Navbar = () => {
+const Navbar = ({scrollToCards}) => {
 
 
     const {theme, toggleTheme} = useTheme();
@@ -27,7 +27,7 @@ const Navbar = () => {
 
                     <ul className=" space-x-4 md:flex items-center justify-between text-base  pt-4 md:pt-0">
                         <li><a href="#home" className=" hover:text-primary">Home</a></li>
-                        <li><a href="#projects" className=" hover:text-primary">Projects</a></li>
+                        <li><a onClick={scrollToCards} className=" hover:text-primary">Projects</a></li>
                         <li><a href="#about" className=" hover:text-primary">About</a></li>
                         <li><a href="#contact" className=" hover:text-primary">Contact</a></li>
                         <li>
