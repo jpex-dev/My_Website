@@ -7,7 +7,8 @@ module.exports = {
   darkMode: ["class"],
   content: [
     "./src/**/*.{html,js,tsx,ts,jsx,tsx}",  // Adjust if needed
-    "./node_modules/@nextui-org/theme/dist/components/(card|ripple).js"
+    "./node_modules/@nextui-org/theme/dist/components/(card|ripple).js",
+    "./node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}"
   ],
   theme: {
     container: {
