@@ -1,5 +1,5 @@
 import ProjectCards from "./ProjectCards";
-import {post} from "./blog.js"
+import {post} from "../blog.js"
 import {forwardRef} from "react";
 
 

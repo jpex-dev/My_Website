@@ -28,7 +28,7 @@ const Techs = () => {
     return (<>
 
             <div className="flex full-width align-items-center justify-center text-4xl">
-                <h1 className="mb-8 text-5xl font-bold leading-tight"> Techs</h1>
+                <h1 className="mb-8 text-5xl font-bold leading-tight"> TECHS</h1>
             </div>
             <div className="container h-[60vh] px-4 flex justify-center">
                 <Tabs aria-label="Options" variant="underlined" isVertical={true}>

@@ -1,12 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
-import Navbar from "./components/Navbar.jsx";
-import MainPage from "./components/Mainpage";
-import AnimatedBackground from "./components/Animatedbg";
-import ProjectCards from "./components/ProjectCards";
-import Cards from "./components/Cards";
-import Techs from "./components/Techs";
+import Navbar from "./components/Frontpage/Navbar.jsx";
+import MainPage from "./components/Frontpage/Mainpage";
+import AnimatedBackground from "./components/utils/Animatedbg";
+import ProjectCards from "./components/Cards/ProjectCards";
+import Cards from "./components/Cards/Cards";
+import Techs from "./components/Techs/Techs";
 import {useRef} from "react";
+import ContactForm from "./components/Contactform/ContactForm";
 
 function App() {
 
@@ -25,6 +26,9 @@ function App() {
                 </div>
                 <div className="flex flex-col justify-evenly">
                     <Techs/>
+                </div>
+                <div>
+                    <ContactForm/>
                 </div>
             </AnimatedBackground>
 

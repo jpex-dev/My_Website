@@ -1,8 +1,6 @@
-import { Button } from "./ui/button.tsx"
+import { Button } from "../ui/button.tsx"
 
 import {Github, Linkedin, Mail} from 'lucide-react'
-import AnimatedText from "./TextPresentation";
-import Cards from "./ProjectCards";
 
 
 const MainPage = () => {

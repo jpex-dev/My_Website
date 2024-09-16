@@ -1,7 +1,7 @@
 import {Moon, Sun} from 'lucide-react'
 import React from "react";
-import {useTheme} from "./darkthemeProvide.tsx";
-import { Button } from "./ui/button.tsx"
+import {useTheme} from "../utils/darkthemeProvide.tsx";
+import { Button } from "../ui/button.tsx"
 
 
 const Navbar = ({scrollToCards}) => {
