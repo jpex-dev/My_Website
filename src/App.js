@@ -8,6 +8,7 @@ import Cards from "./components/Cards/Cards";
 import Techs from "./components/Techs/Techs";
 import {useRef} from "react";
 import ContactForm from "./components/Contactform/ContactForm";
+import Footer from "./components/Footer/footer";
 
 function App() {
 
@@ -30,6 +31,7 @@ function App() {
                 <div>
                     <ContactForm/>
                 </div>
+                <Footer/>
             </AnimatedBackground>
 
         </div>
